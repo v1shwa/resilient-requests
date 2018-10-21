@@ -3,7 +3,10 @@ Requests with added support for resilience i.e., automatic retry support on temp
 
 ## Usage
 
-_Coming soon_
+```
+rs = ResilientSession(max_retries=3)
+rs.get('http://httpstat.us/502')
+```
 
 ## Todo
 
